@@ -1,0 +1,1 @@
+import {PlaceholderScreen} from "@/src/components";export default function AIChat(){return <PlaceholderScreen title="AI chat" description="Future staff assistant placeholder. No AI service is connected."/>;}

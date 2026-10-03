@@ -1,0 +1,1 @@
+import {router} from "expo-router";import {Button,Screen,SectionTitle} from "@/src/components";export function PlaceholderScreen({title,description}:{title:string;description:string}){return <Screen><SectionTitle title={title} subtitle={description}/><Button label="Back" variant="secondary" onPress={()=>router.back()}/></Screen>;}

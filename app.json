@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "ONAM",
+    "slug": "onam",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "onam",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.onam.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

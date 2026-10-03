@@ -1,0 +1,1 @@
+import {EmptyState,Screen,SectionTitle} from "@/src/components";export default function Customers(){return <Screen><SectionTitle title="Customers" subtitle="Customer tools follow privacy and data design approval."/><EmptyState title="Customer tools are not active" description="This placeholder does not collect or store customer data."/></Screen>;}

@@ -1,0 +1,1 @@
+import {router} from "expo-router";import {Button,Screen,SectionTitle} from "@/src/components";export default function Verification(){return <Screen><SectionTitle title="Verification" subtitle="No code is sent or checked in this foundation."/><Button label="Continue to app preview" onPress={()=>router.replace("/(tabs)")}/></Screen>;}

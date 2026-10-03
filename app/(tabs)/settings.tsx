@@ -1,0 +1,1 @@
+import {EmptyState,Screen,SectionTitle} from "@/src/components";export default function Settings(){return <Screen><SectionTitle title="Settings" subtitle="Shop and device settings come later."/><EmptyState title="Settings are not connected" description="Sign-in, shop setup, and device registration are inactive."/></Screen>;}

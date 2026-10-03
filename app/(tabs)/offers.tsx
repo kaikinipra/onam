@@ -1,0 +1,1 @@
+import {EmptyState,Screen,SectionTitle} from "@/src/components";export default function Offers(){return <Screen><SectionTitle title="Offers" subtitle="Shop offers will be managed in a later phase."/><EmptyState title="No offers yet" description="Offer creation and reward rules are not connected."/></Screen>;}

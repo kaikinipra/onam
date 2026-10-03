@@ -1,0 +1,1 @@
+import {PlaceholderScreen} from "@/src/components";export default function AIOfferPreview(){return <PlaceholderScreen title="AI offer preview" description="Future offer draft placeholder. No AI is connected."/>;}
