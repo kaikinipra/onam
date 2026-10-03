@@ -1,6 +1,6 @@
 # ONAM
 
-ONAM is a restaurant retention engine operated through the restaurant's Android device. A single staff-facing mobile app supports shop teams and can be handed to a customer at the counter for consent, number capture, and reward interaction. ONAM is not a customer app.
+ONAM is not a customer app. It is a restaurant retention engine operated through the restaurant's Android device. One staff-facing mobile app supports shop teams and can be handed to a customer at the counter for consent, number capture, and reward interaction.
 
 ## Foundation
 - React Native, Expo, Expo Router, TypeScript; mobile-only and Android-first.
