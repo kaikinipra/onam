@@ -1,1 +1,6 @@
-import {ActivityIndicator,Text,View} from "react-native";import {colors} from "@/src/theme";export function LoadingState(){return <View accessibilityRole="progressbar"><ActivityIndicator color={colors.primary}/><Text style={{color:colors.muted}}>Loading</Text></View>;}
+import { ActivityIndicator, Text, View } from "react-native";
+import { colors, spacing } from "@/src/theme";
+
+export function LoadingState({ label = "Loading" }: { label?: string }) {
+  return <View accessibilityRole="progressbar" style={{ alignItems: "center", gap: spacing.sm, padding: spacing.lg }}><ActivityIndicator color={colors.primary} /><Text style={{ color: colors.muted }}>{label}</Text></View>;
+}

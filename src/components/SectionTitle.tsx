@@ -1,1 +1,6 @@
-import {Text,View} from "react-native";import {colors,spacing,typography} from "@/src/theme";export function SectionTitle({title,subtitle}:{title:string;subtitle?:string}){return <View style={{gap:spacing.xs}}><Text accessibilityRole="header" style={{color:colors.text,fontSize:typography.heading,fontWeight:"700"}}>{title}</Text>{subtitle?<Text style={{color:colors.muted,fontSize:typography.body,lineHeight:22}}>{subtitle}</Text>:null}</View>;}
+import { Text, View } from "react-native";
+import { colors, spacing, typography } from "@/src/theme";
+
+export function SectionTitle({ title, subtitle }: { title: string; subtitle?: string }) {
+  return <View style={{ gap: spacing.xs }}><Text accessibilityRole="header" style={{ color: colors.text, fontSize: typography.heading, fontWeight: "700" }}>{title}</Text>{subtitle ? <Text style={{ color: colors.muted, fontSize: typography.body, lineHeight: 23 }}>{subtitle}</Text> : null}</View>;
+}
